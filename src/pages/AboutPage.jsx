@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { useSelector } from 'react-redux';
 import { CiFacebook, CiInstagram, CiTwitter } from "react-icons/ci";
 import { PiShieldCheckLight, PiHammerLight, PiTruckLight, PiUsersThreeLight } from "react-icons/pi";
 import { IoClose } from "react-icons/io5";
@@ -165,5 +164,6 @@ const AboutPage = () => {
 
     );
 };
+
 
 export default AboutPage;
