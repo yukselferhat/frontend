@@ -146,9 +146,9 @@ const AboutPage = () => {
 
                             <div className="flex gap-4 w-full">
 
-                                <a href="#" className="flex-1 py-3 bg-slate-100 text-slate-600 rounded-xl hover:bg-red-600 hover:text-white transition-all duration-300 flex justify-center"><CiFacebook size={28} /></a>
-                                <a href="#" className="flex-1 py-3 bg-slate-100 text-slate-600 rounded-xl hover:bg-red-600 hover:text-white transition-all duration-300 flex justify-center"><CiInstagram size={28} /></a>
-                                <a href="#" className="flex-1 py-3 bg-slate-100 text-slate-600 rounded-xl hover:bg-red-600 hover:text-white transition-all duration-300 flex justify-center"><CiTwitter size={28} /></a>
+                                <a href="/" className="flex-1 py-3 bg-slate-100 text-slate-600 rounded-xl hover:bg-red-600 hover:text-white transition-all duration-300 flex justify-center"><CiFacebook size={28} /></a>
+                                <a href="/" className="flex-1 py-3 bg-slate-100 text-slate-600 rounded-xl hover:bg-red-600 hover:text-white transition-all duration-300 flex justify-center"><CiInstagram size={28} /></a>
+                                <a href="/" className="flex-1 py-3 bg-slate-100 text-slate-600 rounded-xl hover:bg-red-600 hover:text-white transition-all duration-300 flex justify-center"><CiTwitter size={28} /></a>
 
                             </div>
 
@@ -167,3 +167,4 @@ const AboutPage = () => {
 
 
 export default AboutPage;
+
