@@ -22,7 +22,7 @@ const Footer = () => {
                         <div className="flex items-center justify-center sm:justify-start gap-3">
 
                             <MdPhoneInTalk className="text-red-500" />
-                            <a href="tel:+905505379735" className="text-sm font-semibold text-slate-200 cursor-pointer">+90 550 537 97 35</a>
+                            <a href="tel:+905550537973" className="text-sm font-semibold text-slate-200 cursor-pointer">+90 555 053 79 73</a>
 
                         </div>
 
@@ -106,5 +106,6 @@ const Footer = () => {
 
     );
 };
+
 
 export default Footer;
