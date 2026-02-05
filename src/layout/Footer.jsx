@@ -77,10 +77,8 @@ const Footer = () => {
 
                     <div className="flex gap-3">
 
-                        <a href='https://www.instagram.com' className={`p-3 rounded-lg bg-slate-800 text-white transition-all duration-300 shadow-xl hover:bg-instagram hover:-translate-y-1`} ><FaInstagram size={20} /></a>
+                        <a href='https://www.instagram.com/ankara06mobilyamontaj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className={`p-3 rounded-lg bg-slate-800 text-white transition-all duration-300 shadow-xl hover:bg-instagram hover:-translate-y-1`} ><FaInstagram size={20} /></a>
                         <a href={url} className={`p-3 rounded-lg bg-slate-800 text-white transition-all duration-300 shadow-xl hover:bg-green-500 hover:-translate-y-1`} ><FaWhatsapp size={20} /></a>
-                        <a href='https://x.com/?lang=tr' className={`p-3 rounded-lg bg-slate-800 text-white transition-all duration-300 shadow-xl hover:bg-blue-400 hover:-translate-y-1`} ><FaXTwitter size={20} /></a>
-                        <a href='https://www.linkedin.com' className={`p-3 rounded-lg bg-slate-800 text-white transition-all duration-300 shadow-xl hover:bg-blue-700 hover:-translate-y-1`} ><FaLinkedinIn size={20} /></a>
 
                     </div>
 
