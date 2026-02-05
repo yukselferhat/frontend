@@ -111,7 +111,7 @@ const AboutPage = () => {
 
                     <div className='group relative w-24 h-24 p-1.5 bg-red-600 rounded-full cursor-pointer shadow-xl hover:shadow-red-500/40 transition-all duration-300 hover:scale-110 overflow-hidden' onClick={() => setModal(true)}>
 
-                        <img src='https://web.whatsapp.com/9115b5ce-7e10-407f-bca4-738dd375f002' alt="Usta" className='w-full h-full object-cover rounded-full group-hover:opacity-80' onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Semih+Cingitas&background=2563eb&color=fff' }}/>
+                        <img src='' alt="Usta" className='w-full h-full object-cover rounded-full group-hover:opacity-80'/>
 
                     </div>
 
@@ -164,5 +164,6 @@ const AboutPage = () => {
 
     );
 };
+
 
 export default AboutPage;
