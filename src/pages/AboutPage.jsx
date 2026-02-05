@@ -129,11 +129,11 @@ const AboutPage = () => {
 
                             <div className="w-24 h-24 bg-red-600 rounded-full mb-4 p-1 shadow-xl">
 
-                                <img src='blob:https://web.whatsapp.com/9115b5ce-7e10-407f-bca4-738dd375f002' alt="Semih" className='rounded-full w-full h-full object-cover border-4 border-white' />
+                                <img src='blob:https://web.whatsapp.com/9115b5ce-7e10-407f-bca4-738dd375f002' alt="Ferhat" className='rounded-full w-full h-full object-cover border-4 border-white' />
 
                             </div>
 
-                            <h1 className="text-2xl font-black text-slate-800 tracking-tight">Semih Cingitaş</h1>
+                            <h1 className="text-2xl font-black text-slate-800 tracking-tight">Ferhat Yüksel</h1>
 
                             <p className="text-red-600 font-bold text-sm bg-red-50 px-4 py-1 rounded-full mt-2 uppercase tracking-widest">Baş Usta & Kurucu</p>
 
@@ -167,3 +167,4 @@ const AboutPage = () => {
 
 
 export default AboutPage;
+
