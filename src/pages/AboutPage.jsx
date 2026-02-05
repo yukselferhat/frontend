@@ -111,7 +111,7 @@ const AboutPage = () => {
 
                     <div className='group relative w-24 h-24 p-1.5 bg-red-600 rounded-full cursor-pointer shadow-xl hover:shadow-red-500/40 transition-all duration-300 hover:scale-110 overflow-hidden' onClick={() => setModal(true)}>
 
-                        <img src='' alt="Usta" className='w-full h-full object-cover rounded-full group-hover:opacity-80'/>
+                        <img src='https://github.com/yukselferhat/frontend/blob/main/public/ferhat.jpg' alt="Usta" className='w-full h-full object-cover rounded-full group-hover:opacity-80'/>
 
                     </div>
 
@@ -129,7 +129,7 @@ const AboutPage = () => {
 
                             <div className="w-24 h-24 bg-red-600 rounded-full mb-4 p-1 shadow-xl">
 
-                                <img src='blob:https://web.whatsapp.com/9115b5ce-7e10-407f-bca4-738dd375f002' alt="Ferhat" className='rounded-full w-full h-full object-cover border-4 border-white' />
+                                <img src='https://github.com/yukselferhat/frontend/blob/main/public/ferhat.jpg' alt="Ferhat" className='rounded-full w-full h-full object-cover border-4 border-white' />
 
                             </div>
 
@@ -167,4 +167,5 @@ const AboutPage = () => {
 
 
 export default AboutPage;
+
 
