@@ -1,5 +1,4 @@
-import { FaInstagram, FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineMailOutline, MdPhoneInTalk } from "react-icons/md";
 
 const Footer = () => {
@@ -109,3 +108,4 @@ const Footer = () => {
 
 
 export default Footer;
+
