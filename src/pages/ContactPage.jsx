@@ -11,9 +11,9 @@ const ContactPage = () => {
 
         e.preventDefault();
 
-        const serviceID = 'service_vw4gtml';
-        const templateID = 'template_ka601bt';
-        const publicKey = 'fU1dvyv_99NCd3K7-';
+        const serviceID = 'service_vfn5rc8';
+        const templateID = 'template_tuma8kl';
+        const publicKey = '3a85mBjQ7GVg5KxPe';
 
         const templateParams = {
 
@@ -41,8 +41,8 @@ const ContactPage = () => {
         {
             icon: <PiPhoneLight size={28} />,
             title: "Telefon & WhatsApp",
-            detail: "+90 (550) 537 97 35",
-            subDetail: "Pazartesi - Cumartesi: 17:30 - 24:00"
+            detail: "+90 (555) 053 79 73",
+            subDetail: "Pazartesi - Pazar: 20:00 - 24:00"
         },
         {
             icon: <PiEnvelopeLight size={28} />,
@@ -53,7 +53,7 @@ const ContactPage = () => {
         {
             icon: <PiMapPinLight size={28} />,
             title: "Hizmet Bölgesi",
-            detail: "Çankaya, Sincan, Kayaş",
+            detail: "Çankaya, Sincan, Etimesgut, Eryaman, YEnimahalle, Keçiören, Mamak",
             subDetail: "Ankara geneli yerinde montaj"
         }
     ];
@@ -88,7 +88,7 @@ const ContactPage = () => {
                             <div>
 
                                 <h3 className="font-bold text-slate-800 text-base mb-1">{item.title}</h3>
-                                <p className="text-slate-700 font-semibold text-sm">{item.detail}</p>
+                                <p className="text-slate-700 font-semibold text-[13px]">{item.detail}</p>
                                 <p className="text-slate-400 text-[11px] mt-1 uppercase tracking-wider">{item.subDetail}</p>
 
                             </div>

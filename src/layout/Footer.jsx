@@ -4,7 +4,7 @@ import { MdOutlineMailOutline, MdPhoneInTalk } from "react-icons/md";
 
 const Footer = () => {
 
-    const url = `https://wa.me/905060537423?text=${encodeURIComponent('Merhaba, mobilya montajı hakkında bilgi almak istiyorum.')}`;
+    const url = `https://wa.me/905550537973?text=${encodeURIComponent('Merhaba, mobilya montajı hakkında bilgi almak istiyorum.')}`;
 
     return (
 

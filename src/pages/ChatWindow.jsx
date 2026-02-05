@@ -4,7 +4,7 @@ const ChatWindow = () => {
 
     const handleWhatsAppClick = () => {
 
-        const numara = "905060537423";
+        const numara = "905550537973";
         const mesaj = "Merhaba, mobilya montajı hakkında bilgi almak istiyorum.";
         const url = `https://wa.me/${numara}?text=${encodeURIComponent(mesaj)}`;
         window.open(url, '_blank');

@@ -12,9 +12,9 @@ const Home = () => {
 
         e.preventDefault();
 
-        const serviceID = 'service_vw4gtml';
-        const templateID = 'template_ka601bt';
-        const publicKey = 'fU1dvyv_99NCd3K7-';
+        const serviceID = 'service_vfn5rc8';
+        const templateID = 'template_tuma8kl';
+        const publicKey = '3a85mBjQ7GVg5KxPe';
 
         const templateParams = {
 
@@ -161,7 +161,7 @@ const Home = () => {
                                 <div className="space-y-2">
 
                                     <label className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 ml-2">Ad Soyad</label>
-                                    <input type="text" className="w-full p-4 bg-slate-50 border-2 border-slate-100 rounded-2xl focus:outline-none focus:border-red-600 transition-all font-bold" placeholder="Usta Ahmet" />
+                                    <input type="text" className="w-full p-4 bg-slate-50 border-2 border-slate-100 rounded-2xl focus:outline-none focus:border-red-600 transition-all font-bold" placeholder="Ferhat Yüksel" />
 
                                 </div>
 

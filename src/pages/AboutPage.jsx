@@ -39,11 +39,11 @@ const AboutPage = () => {
                     <div>
 
                         <span className="text-red-600 font-black tracking-widest uppercase text-xs border-l-4 border-red-600 pl-3">Biz Kimiz?</span>
-                        <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mt-4 mb-6 leading-tight">Profesyonel Montajda 10 Yıllık Güven</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mt-4 mb-6 leading-tight">Profesyonel Montajda 20 Yıllık Güven</h2>
 
                         <div className="space-y-4 text-slate-600 leading-relaxed text-lg">
 
-                            <p>2014 yılında bireysel bir girişim olarak başlayan yolculuğumuz, bugün Konya genelinde binlerce haneye ve ofise ulaşan profesyonel bir teknik ekibe dönüştü. Karmaşık kurulum kılavuzlarını sizin için birer konfora dönüştürüyoruz.</p>
+                            <p>2006 yılında bireysel bir girişim olarak başlayan yolculuğumuz, bugün Ankara genelinde binlerce haneye ve ofise ulaşan profesyonel bir teknik ekibe dönüştü. Karmaşık kurulum kılavuzlarını sizin için birer konfora dönüştürüyoruz.</p>
                             <p><strong>Garantili İşçilik:</strong> Yapılan her montaj işlemi, ekibimizin imzasını taşır. Sadece kurmuyor, mobilyalarınızın en uzun ömürlü olacağı şekilde stabilizasyonunu sağlıyoruz.</p>
                             <p><strong>Hız ve Titizlik:</strong> Zamanınızın değerli olduğunu biliyoruz. Randevu saatine sadık kalarak, evinizi kirletmeden ve en sessiz şekilde kurulumu tamamlıyoruz.</p>
 
@@ -165,6 +165,4 @@ const AboutPage = () => {
     );
 };
 
-
 export default AboutPage;
-

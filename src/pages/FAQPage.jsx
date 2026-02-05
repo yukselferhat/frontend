@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PiCaretDownBold, PiQuestionLight, PiTruckLight, PiHammerLight, PiShieldCheckLight, PiClockLight } from "react-icons/pi";
+import { PiCaretDownBold, PiQuestionLight, PiTruckLight, PiHammerLight, PiClockLight } from "react-icons/pi";
 
 const FAQPage = () => {
 
@@ -18,11 +18,6 @@ const FAQPage = () => {
             icon: <PiHammerLight size={24} />,
             question: "Hangi marka mobilyaların montajını yapıyorsunuz?",
             answer: "IKEA, Koçtaş, Bauhaus, Vivense ve Trendyol gibi popüler markaların yanı sıra, tüm özel yapım mobilya, mutfak ve ray dolapların montaj ve demontaj işlemlerini yapıyoruz."
-        },
-        {
-            icon: <PiShieldCheckLight size={24} />,
-            question: "Montaj sonrası garanti veriyor musunuz?",
-            answer: "Kesinlikle. İşçiliğimizden kaynaklanan her türlü sorunda (kapak ayarı, gevşeme vb.) 6 ay boyunca ücretsiz destek sağlıyoruz. Güvenliğiniz için ağır dolapları her zaman duvara sabitliyoruz."
         },
         {
             icon: <PiTruckLight size={24} />,
@@ -91,28 +86,23 @@ const FAQPage = () => {
                 ))}
             </div>
 
-            {/* Alt Bilgi Kartı */}
             <div className="mt-16 text-center bg-slate-900 rounded-[2.5rem] p-10 shadow-2xl relative overflow-hidden">
+
                 <div className="absolute top-0 right-0 w-32 h-32 bg-red-600/10 rounded-full -mr-16 -mt-16"></div>
                 <h3 className="text-2xl font-bold text-white mb-3">Aradığınız yanıtı bulamadınız mı?</h3>
+
                 <p className="text-slate-400 text-sm mb-8 max-w-md mx-auto">
                     Özel ölçü montajlar veya büyük projeleriniz için doğrudan ustamızla görüşebilirsiniz.
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    <button 
-                        onClick={() => navigate('/contact')} 
-                        className="bg-red-600 text-white px-10 py-4 rounded-xl font-bold hover:bg-red-700 transition-all shadow-xl shadow-red-900/20 active:scale-95"
-                    >
-                        Bize Ulaşın
-                    </button>
-                    <a 
-                        href="tel:+905511335410"
-                        className="bg-white/10 text-white border border-white/20 px-10 py-4 rounded-xl font-bold hover:bg-white/20 transition-all backdrop-blur-sm"
-                    >
-                        Hemen Ara
-                    </a>
+
+                    <button onClick={() => navigate('/contact')} className="bg-red-600 text-white px-10 py-4 rounded-xl font-bold hover:bg-red-700 transition-all shadow-xl shadow-red-900/20 active:scale-95">Bize Ulaşın</button>
+                    <a href="tel:+905550537973" className="bg-white/10 text-white border border-white/20 px-10 py-4 rounded-xl font-bold hover:bg-white/20 transition-all backdrop-blur-sm">Hemen Ara</a>
+
                 </div>
+
             </div>
+
         </div>
     );
 };

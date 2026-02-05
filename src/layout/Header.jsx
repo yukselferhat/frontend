@@ -26,7 +26,7 @@ const Header = () => {
                 <div onClick={() => navigate('/')} className='cursor-pointer flex items-center gap-2'>
 
                     {/* <img className='w-32 md:w-40 object-contain' src="/MERNlogo2.png" alt="logo" /> */}
-                    <span className="font-black italic text-sm text-slate-800">Ankara Mobilya <span className="text-red-600">MONTAJ HIZMETLERI</span></span>
+                    <span className="font-black italic text-sm text-slate-800"><span className="text-red-600">F&S</span> Ankara Mobilya MONTAJ</span>
 
                 </div>
 
@@ -49,7 +49,7 @@ const Header = () => {
                         <div className='flex flex-col'>
 
                             <span className='text-[10px] uppercase font-bold text-slate-400 leading-none mb-1'>Hızlı Destek</span>
-                            <a className='text-sm font-bold text-slate-800 hover:text-red-600 transition-colors' href="tel:+905505379735">05505379735</a>
+                            <a className='text-sm font-bold text-slate-800 hover:text-red-600 transition-colors' href="tel:+905550537973">0555537973</a>
 
                         </div>
 
@@ -78,7 +78,7 @@ const Header = () => {
                     <hr className='my-2 border-slate-100' />
                     <div className='flex items-center gap-4 p-4 bg-slate-50 rounded-xl'><TfiHeadphoneAlt size={28} className='text-red-600' /><div>
                     <h4 className='text-xs font-bold text-slate-400 uppercase'>Bizi Arayın</h4>
-                    <a href="tel:+905505379735" className='text-base font-bold text-slate-800'>+905505379735</a>
+                    <a href="tel:+905550537973" className='text-base font-bold text-slate-800'>+905550537973</a>
 
                         </div>
 
