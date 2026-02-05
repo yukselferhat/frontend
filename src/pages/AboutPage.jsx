@@ -140,7 +140,7 @@ const AboutPage = () => {
                             <div className="my-8 text-left w-full bg-slate-50 p-6 rounded-2xl border border-slate-100">
 
                                 <h2 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-3">Ustalık Hikayem</h2>
-                                <p className="text-slate-600 text-sm italic leading-relaxed">"Teknik becerilerimi yazılım dünyasıyla birleştirerek, mobilya montaj hizmetini daha erişilebilir ve profesyonel bir hale getirmeyi hedefledim. Her iş, bir referanstır."</p>
+                                <p className="text-slate-600 text-sm italic leading-relaxed">"Yılların verdiği tecrübeyle, her marka ve model demonte mobilyanızı, karmaşık kurulum şemalarıyla sizi yormadan, profesyonel el aletleri kullanarak hızlı ve hatasız bir şekilde yaşam alanlarınıza kazandırıyorum. Gardıroptan mutfak dolabına, ofis masalarından kitaplıklara kadar tüm parçaları "sanki kendi evime kuruyormuşum" titizliğiyle birleştiriyor; sallanmayan, kapakları simetrik ve güvenli bir kullanım sunan mobilyalarınızı tam zamanında teslim ederek sizi kurulum stresinden kurtarıyorum."</p>
 
                             </div>
 
@@ -167,6 +167,7 @@ const AboutPage = () => {
 
 
 export default AboutPage;
+
 
 
 
